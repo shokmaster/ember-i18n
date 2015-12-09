@@ -1,12 +1,16 @@
 ## Ember-I18n
 
-Internationalization for Ember
+Internationalization for Ember, compatible with versions 1.13.x and 2.x.
+This is a fork of the original project [Ember-i18n](https://github.com/jamesarosen/ember-i18n).
+
+In contrast to the original, this fork does not include the creation of the helper. So you can
+create the helper with your current version of Ember.
 
 ### Requirements
 
 Ember-I18n requires
 
- * Ember v1.13.x
+ * Ember v1.13.x - v2.x
  * Handlebars-runtime v1.x - v2.x
  * jQuery v1.7 - v2.x
 
@@ -17,6 +21,16 @@ compiled via `Ember.I18n.compile`, which defaults to using
 `Handlebars.compile`. (That means that if you haven't precompiled your
 translations, you'll need to include the full Handlebars, not just
 `handlebars-runtime.js` in your application.)
+
+### Integration
+
+To create the 't' helper into your 'App', include this code:
+```javascript
+App.THelper = Ember.Helper.helper(function(params, hash) {
+  var key = params[0];
+  return new EmHandlebars.SafeString(I18n.t(key, hash));
+});
+```
 
 ### Examples
 
