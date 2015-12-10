@@ -1,6 +1,6 @@
 ## Ember-I18n
 
-Internationalization for Ember v1.13.x.
+Internationalization for Ember v2.0.x.
 This is a fork of the original project [Ember-i18n](https://github.com/jamesarosen/ember-i18n).
 
 In contrast to the original, this fork does not include the creation of the helper. So you can
@@ -10,7 +10,7 @@ create the helper with your current version of Ember.
 
 Ember-I18n requires
 
- * Ember v1.13.x
+ * Ember v2.0.x
  * Handlebars-runtime v1.x - v2.x
  * jQuery v1.7 - v2.x
 

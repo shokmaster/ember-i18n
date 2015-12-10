@@ -1,12 +1,12 @@
 {
   "name": "ember-i18n",
   "version": "3.2",
-  "description": "I18n support for Ember.js +1.13",
+  "description": "I18n support for Ember.js +2.0",
   "main": [ "lib/i18n.js" ],
   "dependencies": {
     "jquery": "~2.1.4",
     "handlebars": ">=1.0 <3",
-    "ember": "~1.13.11"
+    "ember": "~2.0.0"
   },
   "scripts": {
     "test": "rake"
