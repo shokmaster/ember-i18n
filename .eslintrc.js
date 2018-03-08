@@ -4,7 +4,7 @@ module.exports = {
 	root: true,
 	extends: 'eslint-config-bbva',
 	env: {
-    browser: true,
-    node: true
+		browser: true,
+		node: true
 	}
 };
