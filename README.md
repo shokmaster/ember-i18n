@@ -1,3 +1,5 @@
+# DEPRECATED
+
 ## Ember-I18n - Internationalization for Ember
 
 Documentation is in the [wiki](https://github.com/jamesarosen/ember-i18n/wiki). Recommended reading:
